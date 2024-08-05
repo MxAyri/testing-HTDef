@@ -1,0 +1,1167 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 15px;
+}
+
+.head {
+    background-image: url('./img/head-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.head-logo {
+    padding: 40px 13px 36.37px;
+    background-color: #0A398A;
+    width: fit-content;
+    width: -moz-fit-content;
+    margin-left: 60px;
+}
+
+.head-txt {
+    padding: 116px 0 213px 60px;
+}
+
+h1 {
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.head-txt-p {
+    color: #FFFFFF;
+    font-size: 26px;
+    max-width: 550px;
+    padding-top: 15px;
+    line-height: 35px;
+}
+
+.head-decoration {
+    position: absolute;
+    right: 0;
+    bottom: -98px;
+}
+
+.about {
+    padding: 100px 57px 99px 25px;
+    display: flex;
+    gap: 40px;
+    background-color: #FFFFFF;
+    border-right: 3px solid #F7EEE5;
+}
+
+.about-video {
+    box-shadow: -35px -37px #F7EEE5;
+    margin: 37px 0 0 35px;
+    height: 365px;
+    width: 545px;
+}
+
+.about-txt-title {
+    color: #0A3B93;
+    font-size: 18px;
+    padding: 22px 0 35px;
+    text-transform: uppercase;
+}
+
+.about-txt-p {
+    color: #6C5F4A;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 545px;
+}
+
+.about-txt-p-padding {
+    padding-top: 16px;
+}
+
+.bilet {
+    background-color: #0A3B93;
+    padding: 95px 0 96px 60px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    position: relative;
+    gap: 38px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bilet-txt {
+    max-width: 676px;
+    color: white;
+    line-height: 31px;
+    letter-spacing: 0.1px;
+}
+
+.bilet-decore {
+    position: absolute;
+    right: -6px;
+    bottom: -149px;
+}
+
+.mission {
+    background-image: url('./img/mission-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 90px 0 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-title {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.mission-title-line {
+    background-color: #FFFFFF;
+    width: 66px;
+    height: 4px;
+}
+
+.mission-title h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.7px;
+    word-spacing: -11px;
+}
+
+.mission-title h2 span {
+    letter-spacing: -1px;
+
+}
+
+
+.mission-txt {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-top: 52px;
+
+}
+
+.mission-btn {
+    color: #0A3B93;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    padding: 23px 73px;
+    margin-top: 40px;
+}
+
+.advantages {
+    padding: 107px 59px 0 60px;
+    background-color: #F7EEE5;
+}
+
+
+.advantages h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #0A3B93;
+}
+
+.advantages-grid {
+    padding-top: 67px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+    column-gap: 31px;
+}
+
+.advantages-grid-card {
+    width: 356px;
+    height: 317px;
+    background-color: #0A3B93;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.advantages-grid-card-img {
+    object-fit: cover;
+    width: 356px;
+    height: 178px;
+}
+
+.advantages-grid-card-content {
+    min-height: 135px;
+    background-color: #0A3B93;
+    transition: 0.3s;
+    top: 178px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.advantages-grid-card-content-accordeon {
+    height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.advantages-grid-card-content-txt {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 16px 20px 0;
+}
+
+.advantages-grid-card-svg {
+    position: absolute;
+    bottom: 32px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.advantages-grid-arrow {
+    display: none;
+}
+
+.advantages-slider-indicators {
+    display: none;
+}
+
+.duffbeer {
+    padding: 133px 60px 120px;
+    position: relative;
+    background-color: #F7EEE5;
+}
+
+.duffbeer h3 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #0A3B93;
+}
+
+.duffbeer-title {
+    color: #6C5F4A;
+    font-size: 18px;
+    padding-top: 32px;
+}
+
+.duffbeer-grid {
+    display: grid;
+    padding-top: 63px;
+    grid-template-columns: repeat(4, auto);
+    position: relative;
+    z-index: 1;
+}
+
+.duffbeer-grid-card-long {
+    background-color: #8A7B60;
+    width: 565px;
+    transition: 0.3s;
+}
+
+.duffbeer-grid-card-long img {
+    width: 565px;
+    height: 241px;
+    object-fit: cover;
+}
+
+.duffbeer-grid-card-long-txt {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 40px 14px;
+}
+
+.duffbeer-grid-card-small {
+    background-color: #0A3B8E;
+    width: 294px;
+    transition: 0.3s;
+}
+
+.duffbeer-grid-card-small img {
+    width: 294px;
+    height: 241px;
+}
+
+.duffbeer-grid-card-small-txt {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 40px 14px;
+}
+
+.duffbeer-grid-card-small-svg-167 {
+    margin: 72px 65.5px 14px 66.5px;
+}
+
+.duffbeer-grid-card-small-svg-4 {
+    margin: 70.5px 117px 14px;
+}
+
+.duffbeer-grid-arrow {
+    display: none;
+}
+
+.duffbeer-slider-indicators {
+    display: none;
+}
+
+.grid-elem-1 {
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: right;
+}
+
+.grid-elem-2 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.grid-elem-3 {
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+.grid-elem-4 {
+    grid-area: 2 / 3 / 3 / 5;
+}
+
+.grid-elem-5 {
+    grid-area: 3 / 1 / 4 / 3;
+    text-align: right;
+}
+
+.grid-elem-6 {
+    grid-area: 3 / 3 / 4 / 4;
+    text-align: center;
+}
+
+.duffbeer-decor-1 {
+    position: absolute;
+    right: 0;
+    top: 125px;
+    z-index: 0;
+}
+
+.duffbeer-decor-2 {
+    position: absolute;
+    left: 0;
+    bottom: 322px;
+    z-index: 0;
+}
+
+@media (max-width: 1339px) {
+    main {
+        max-width: 960px;
+    }
+
+    .head-decoration {
+        display: none;
+    }
+
+    .head-txt {
+        padding: 135px 0 181px 40px;
+    }
+
+    .head-txt-p {
+        padding-top: 28px;
+    }
+
+    .about {
+        padding: 78px 0 58px 0;
+        gap: 26px;
+        border: 0;
+    }
+
+    .about-video {
+        width: 406px;
+        height: 272px;
+        box-shadow: -40px -27px #F7EEE5;
+        margin: 61px 0 0 40px;
+    }
+
+    .about-txt-title {
+        padding: 24px 0 35px;
+    }
+
+    .about-txt-p {
+        max-width: 416px;
+    }
+
+    .bilet {
+        padding: 95px 0 96px 40px;
+        border-top: 18px solid #F7EEE5;
+        overflow: hidden;
+    }
+
+    .bilet-decore {
+        position: absolute;
+        right: -286px;
+        bottom: -146px;
+    }
+
+    .mission {
+        padding-top: 94px;
+    }
+
+    .mission-txt {
+        max-width: 585px;
+        padding-top: 43px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .mission-btn {
+        padding: 24px 73px;
+        margin-top: 32px;
+    }
+
+    .advantages {
+        padding: 87px 40px 0;
+    }
+
+    .advantages-grid {
+        padding-top: 39px;
+        row-gap: 20px;
+    }
+
+    .advantages-grid-card {
+        width: 260px;
+        height: 343px;
+    }
+
+    .advantages-grid-card img {
+        width: 260px;
+        height: 178px;
+        object-position: 50%;
+    }
+
+    .advantages-grid-card-content-txt {
+        padding: 16px 20px 0px;
+    }
+
+    .advantages-grid-card-content-accordeon {
+        font-size: 16px;
+    }
+
+    .advantages-grid-card-svg {
+        bottom: 29px;
+        right: 19px;
+    }
+
+    .duffbeer {
+        padding: 90px 40px 120px;
+    }
+
+    .duffbeer-title {
+        padding-top: 31px;
+    }
+
+    .duffbeer-grid {
+        padding-top: 36px;
+    }
+
+    .duffbeer-grid-card-long {
+        width: 454px;
+    }
+
+    .duffbeer-grid-card-long img {
+        width: 454px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .duffbeer-grid-card-long-txt {
+        padding: 12px 32px 14px;
+    }
+
+    .duffbeer-grid-card-small {
+        width: 294px;
+    }
+
+    .duffbeer-grid-card-small-svg-167 {
+        margin: 68px 65.5px 14px 66.5px;
+    }
+
+    .duffbeer-grid-card-small-svg-4 {
+        margin: 62px 65.5px 14px 66.5px;
+    }
+
+    .grid-elem-2 p {
+        padding: 10px 0px 14px 50px;
+    }
+
+    .grid-elem-4 {
+        width: 396px;
+    }
+
+    .grid-elem-4 img {
+        width: 396px;
+    }
+
+    .grid-elem-4 p {
+        padding: 12px 0 14px 50px
+    }
+
+    .duffbeer-decor-1 {
+        right: -90px;
+        top: 75px;
+    }
+
+    .duffbeer-decor-2 {
+        left: -21px;
+        bottom: 157px;
+        height: 378px;
+        width: 294px;
+    }
+}
+
+@media (max-width: 1019px) {
+    main {
+        max-width: 640px;
+    }
+
+    .head-logo {
+        margin: 0 auto;
+        padding: 21px 7px 17px;
+    }
+
+    .head-logo-svg {
+        width: 153px;
+    }
+
+    .head-txt {
+        text-align: center;
+        padding: 54px 0 94px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .head-txt-p {
+        font-size: 16px;
+        max-width: 325px;
+        margin: 0 auto;
+        padding-top: 19px;
+        line-height: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding: 60px 20px;
+    }
+
+    .about-video {
+        order: 1;
+        box-shadow: 341px -193px 0 -150px #FFF, -18px -31px 0 11px #F7EEE5;
+        width: 541px;
+        height: 361px;
+        margin: 46px 0 0 29px;
+    }
+
+    @-moz-document url-prefix() {
+        .about-txt {
+            letter-spacing: -0.11px;
+        }
+    }
+
+
+    .about-txt-svg {
+        width: 71px;
+        height: 31px;
+    }
+
+    .about-txt-title {
+        font-size: 8.5px;
+        padding: 7px 0 18px;
+    }
+
+    .about-txt-p {
+        font-size: 14px;
+        max-width: 100%;
+        line-height: 20px;
+    }
+
+    .about-txt-p-padding {
+        padding-top: 10px;
+    }
+
+    .about-txt-p-padding span {
+        word-spacing: 400px;
+    }
+
+    .bilet {
+        border: 0;
+        padding: 33px 0 33px 17px;
+        gap: 23px;
+    }
+
+    .bilet-svg {
+        width: 29px;
+        height: 28px;
+    }
+
+    .bilet-txt {
+        font-size: 16px;
+        max-width: 435px;
+        line-height: 19px;
+        letter-spacing: 0.02px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .bilet-decore {
+        width: 179px;
+        height: 132px;
+        bottom: -36px;
+        right: -3px;
+        z-index: 0;
+    }
+
+    .mission {
+        padding: 59px 0 55px;
+    }
+
+    .mission-title {
+        gap: 12px;
+    }
+
+    .mission-title-line {
+        width: 15px;
+        height: 1px;
+    }
+
+    .mission-title h2 {
+        font-size: 30px;
+        letter-spacing: 0.6px;
+        word-spacing: -6px;
+    }
+
+    .mission-txt {
+        font-size: 16px;
+        max-width: 400px;
+        padding-top: 26px;
+        line-height: 21px;
+    }
+
+    .mission-btn {
+        padding: 16px 31px;
+        margin-top: 9px;
+        font-size: 14px;
+    }
+
+    .advantages {
+        padding: 65px 20px 0;
+    }
+
+    .advantages h3 {
+        font-size: 20px;
+    }
+
+    .advantages-grid {
+        padding-top: 24px;
+        justify-content: start;
+        gap: 25px;
+        display: flex;
+        transition: transform 0.5s ease;
+        will-change: transform;
+        flex-wrap: nowrap;
+    }
+
+    .advantages-grid-card {
+        height: 284px;
+        flex: 0 0 260px;
+        max-width: 100%;
+        user-select: none;
+        will-change: transform;
+        opacity: 0;
+    }
+
+    .itc-slider-item {
+        opacity: 0;
+    }
+
+    .itc-slider-item-active {
+        opacity: 1;
+    }
+
+    .advantages-grid-card-content-txt {
+        font-size: 14px;
+    }
+
+    .advantages-grid-card-content-accordeon {
+        font-size: 12px;
+    }
+
+    .advantages-grid-card-svg {
+        bottom: 25px;
+    }
+
+    .advantages-grid-arrow {
+        display: block;
+    }
+
+    .advantages-slider-indicators {
+        display: block;
+    }
+
+    .advantages-slider {
+        position: relative;
+    }
+
+    .advantages-wrapper {
+        overflow: hidden;
+        background-color: #F7EEE5;
+    }
+
+    /*  */
+    .advantages-transition-none {
+        transition: none;
+    }
+
+    /* кнопки влево и вправо */
+    .advantages-grid-arrow {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 11px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    /*  */
+    .advantages-grid-arrow-hide {
+        display: none;
+    }
+
+    /*  */
+    .advantages-grid-arrow-prev {
+        left: -20px;
+        bottom: 134px;
+    }
+
+
+    .advantages-grid-arrow-next {
+        right: -17px;
+        bottom: 134px;
+    }
+
+    .advantages-grid-arrow:hover,
+    .advantages-grid-arrow:focus {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    .advantages-grid-arrow::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: transparent no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    .advantages-grid-arrow-prev::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .advantages-grid-arrow-next::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    /* индикаторы */
+    .advantages-slider-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -20px;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        margin: 0 15%;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .advantages-slider-indicator {
+        flex: 0 1 auto;
+        box-sizing: content-box;
+        width: 4px;
+        height: 4px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: #8A7B60;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .duffbeer {
+        padding: 85px 20px 97px;
+        overflow: hidden;
+    }
+
+    .duffbeer h3 {
+        font-size: 18px;
+    }
+
+    .duffbeer-title {
+        padding-top: 19px;
+        font-size: 16px;
+    }
+
+    .duffbeer-grid {
+        padding-top: 50px;
+        display: flex;
+        transition: transform 0.5s ease;
+        will-change: transform;
+        flex-wrap: nowrap;
+        gap: 23px;
+    }
+
+    .duffbeer-grid-card-long {
+        width: 260px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .duffbeer-grid-card-long img {
+        width: 260px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .duffbeer-grid-card-long-txt {
+        padding: 9px 9px 14px;
+    }
+
+    .duffbeer-grid-card-small {
+        width: 260px;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+
+    .duffbeer-grid-card-small img {
+        width: 260px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .grid-elem-2 p {
+        padding: 9px 0px 14px 10px;
+    }
+
+    .duffbeer-decor-1 {
+        width: 185px;
+        height: 290px;
+        right: -44px;
+        bottom: -211px;
+        top: auto;
+    }
+
+    .duffbeer-decor-2 {
+        display: none;
+    }
+
+    .duffbeer-grid-card-content-txt {
+        font-size: 14px;
+    }
+
+    .duffbeer-grid-card-content-accordeon {
+        font-size: 12px;
+    }
+
+    .duffbeer-grid-card-svg {
+        bottom: 25px;
+    }
+
+    .duffbeer-grid-arrow {
+        display: block;
+    }
+
+    .duffbeer-slider-indicators {
+        display: block;
+    }
+
+    .duffbeer-slider {
+        position: relative;
+    }
+
+    .duffbeer-wrapper {
+        overflow: hidden;
+        background-color: #F7EEE5;
+    }
+
+    /*  */
+    .duffbeer-transition-none {
+        transition: none;
+    }
+
+    /* кнопки влево и вправо */
+    .duffbeer-grid-arrow {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 11px;
+        color: #fff;
+        text-align: center;
+        border: none;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    /*  */
+    .duffbeer-grid-arrow-hide {
+        display: none;
+    }
+
+    /*  */
+    .duffbeer-grid-arrow-prev {
+        left: -20px;
+        bottom: 141px;
+    }
+
+
+    .duffbeer-grid-arrow-next {
+        right: -11px;
+        bottom: 141px;
+    }
+
+    .duffbeer-grid-arrow:hover,
+    .duffbeer-grid-arrow:focus {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    .duffbeer-grid-arrow::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: transparent no-repeat center center;
+        background-size: 100% 100%;
+    }
+
+    .duffbeer-grid-arrow-prev::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .duffbeer-grid-arrow-next::before {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    /* индикаторы */
+    .duffbeer-slider-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -18px;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        margin: 0 15%;
+        padding-left: 0;
+        list-style: none;
+        gap: 2px;
+    }
+
+    .duffbeer-slider-indicator {
+        flex: 0 1 auto;
+        box-sizing: content-box;
+        width: 4px;
+        height: 4px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        background-color: #8A7B60;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+    .itc-slider-indicator-active {
+        background-color: #0A3B93;
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    .about {
+        padding: 50px 16px 50px 14px;
+    }
+
+    .about-video {
+        width: 400px;
+        height: 250px;
+        margin: 46px auto 0;
+    }
+
+    .advantages {
+        padding: 50px 16px 0 14px;
+    }
+
+    .advantages-grid-arrow-prev {
+        left: -16px;
+    }
+
+    .duffbeer-grid-arrow-next {
+        right: -20px;
+    }
+
+}
+
+@media (max-width: 510px) {
+    .advantages-slider {
+        position: relative;
+        width: 260px;
+        margin: 0 auto;
+    }
+
+    .duffbeer-slider {
+        position: relative;
+        width: 260px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 460px) {
+    main {
+        max-width: 320px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .head-txt {
+        padding-bottom: 146px;
+    }
+
+    .about-video {
+        width: 260px;
+        height: 174px;
+        margin-top: 22px;
+        box-shadow: 159px -97px 0 -77px #fff, -9px -15px 0 5px #F7EEE5;
+    }
+
+    .about-txt-title {
+        padding: 11px 0 26px;
+    }
+
+    .bilet {
+        gap: 3px;
+        padding: 33px 24px 31px 11px;
+        align-items: normal;
+    }
+
+    .bilet-svg {
+        flex-shrink: 0;
+    }
+
+    .bilet-txt {
+        line-height: 20px;
+    }
+
+    .bilet-decore {
+        bottom: -66px;
+        right: -54px;
+    }
+
+    .mission {
+        padding: 38px 20px 60px;
+    }
+
+    .mission-title {
+        gap: 17px;
+    }
+
+    .mission-title h2 {
+        font-size: 18px;
+        letter-spacing: 0.8px;
+    }
+
+    .mission-txt {
+        letter-spacing: 0.1px;
+        padding-top: 17px;
+    }
+
+    .mission-btn {
+        padding: 13px 30px;
+        margin-top: 28px;
+        font-size: 18px;
+    }
+
+    .advantages {
+        padding-top: 55px;
+    }
+
+    .advantages-grid-arrow-prev {
+        left: -14px;
+    }
+
+    .advantages-grid-arrow-next {
+        right: -14px;
+    }
+
+    .duffbeer-slider-indicators {
+        bottom: initial;
+        top: -110px;
+        left: -199px;
+        gap: 2px;
+    }
+
+    .duffbeer {
+        padding: 85px 14px 80px;
+    }
+
+    .duffbeer-title {
+        padding-top: 24px;
+        max-width: 198px;
+        line-height: 20px;
+    }
+
+    .duffbeer-grid {
+        padding-top: 7px;
+    }
+
+    .duffbeer-grid-arrow-next {
+        right: -12px;
+        bottom: 157px;
+    }
+
+    .duffbeer-grid-arrow-prev {
+        left: -15px;
+        bottom: 157px;
+    }
+
+    .duffbeer-decor-1 {
+        right: -78px;
+        bottom: -197px;
+    }
+}
